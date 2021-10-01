@@ -31,10 +31,10 @@ var joinList = function () {
 		
 	}
 }
-	
-	window.onload = function() {
-		$("join_list").onclick = joinList;
-		$("email_address").focus();
-	}
+
+window.onload = function() {
+	$("join_list").onclick = joinList;
+	$("email_address").focus();
+}
 	
 	
