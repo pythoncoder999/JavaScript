@@ -5,8 +5,8 @@ var $ = function (id) {
 }
 
 var joinList = function () {
-	var emailAddress1 = $("emailaddress1").value;
-	var emailAddress2 = $("emailaddress2").value;
+	var emailAddress1 = $("email_address1").value;
+	var emailAddress2 = $("email_address2").value;
 	var isValid = true;
 
 	if (emailAddress1 == "") {
@@ -19,7 +19,7 @@ var joinList = function () {
 		
 	} else {$("email_address2_error").firstChild.nodeValue = "";}
 	
-	if ($(first_name).value == "") {
+	if ($("first_name").value == "") {
 		$("first_name_error").firstChild.nodeValue = "This field is required."; isValid = false;
 		
 	} else {
