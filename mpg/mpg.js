@@ -26,6 +26,14 @@ var processEntries = function () {
 	var miles = parseFloat($("miles").value);
 	var gallons = parseInt($("gallons").value);
 	
+	if (isNaN(miles) || miles <= 0 ) {
+		alert("Miles must be a number greater than zero.")
+	}
+	
+	if (isNaN(gallons) || gallons <= 0) {
+		alert ("Gallons must be a number greater than zero.")
+	}
+	
 	if (isNaN(miles) || isNaN(gallons)) {
 		alert("Both entries must be numeric");
 	}
