@@ -25,3 +25,8 @@ input{
 	margin-left: 1em;
 	margin-bottom: .5em;
 }
+
+p {
+	padding: 0 2em .25em;
+	color: white;
+}
